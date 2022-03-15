@@ -9,7 +9,7 @@ export default class About extends Component {
         <Col>
         <Row xs={1} sm={1} md={2} lg={2}>
         <Card style={{ width: "35rem" }}>
-          <Card.Img variant="top" src="./images/PFP.jpg" />
+          <Card.Img variant="top" src="./images/headshot.jpg" />
           <Card.Body>
             <Card.Title>Marian Anderson</Card.Title>
             <Card.Text>
