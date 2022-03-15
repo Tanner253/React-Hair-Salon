@@ -18,7 +18,7 @@ body{
   background: -webkit-linear-gradient(#085013,#085013,#1eb427,#085013);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px -2px white;
+  text-shadow: 2px -1px white;
 }
 .carousel-caption > p{
   font-size:2vw;
@@ -26,7 +26,7 @@ body{
   background: -webkit-linear-gradient(#085013,#085013,#1eb427,#085013);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px -2px black;
+  text-shadow: 2px -1px black;
 }
 span.navbar-brand{
   font-weight: bolder;
