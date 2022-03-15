@@ -6,9 +6,9 @@ export default class About extends Component {
     return (
       <>
       <Container className="text-center mt-4">
+        <Row xs={1} sm={1} md={2} lg={2} xl={2}>
         <Col>
-        <Row xs={1} sm={1} md={1} lg={2}>
-        <Card>
+        <Card className="mb-4">
           <Card.Img variant="top" src="./images/headshot.jpg" />
           <Card.Body>
             <Card.Title>Marian Anderson</Card.Title>
@@ -18,7 +18,8 @@ export default class About extends Component {
             <Button href="https://www.vagaro.com/hairbymarian">Book Me!</Button>
           </Card.Body>
         </Card>
-        <div className="p-4"></div>
+        </Col>
+        <Col>
         <Card >
           <Card.Img variant="top" src="./images/ID.PNG" />
           <Card.Body>
@@ -31,8 +32,8 @@ export default class About extends Component {
             <Button  href="mailto:percivaltanner@gmail.com">Email</Button>
           </Card.Body>
         </Card>
-        </Row>
         </Col>
+        </Row>
       </Container>
       </>
     );

@@ -11,18 +11,22 @@ body{
   background: -webkit-linear-gradient(#e41bb1, #e41bb1, #00ffc8, #e41bb1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 1px 2px white;
 }
 span.navbar-brand{
   font-size: 20px;
   background: -webkit-linear-gradient(#00ffc8, #e41bb1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px white;
 }
 a.nav-link{
   font-size: 20px;
   background: -webkit-linear-gradient(#00ffc8, #e41bb1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px white;
+
 }
 
 .App-logo {
