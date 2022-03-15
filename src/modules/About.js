@@ -7,8 +7,8 @@ export default class About extends Component {
       <>
       <Container className="text-center mt-4">
         <Col>
-        <Row xs={1} sm={1} md={2} lg={2}>
-        <Card style={{ width: "50%" }}>
+        <Row xs={1} sm={1} md={1} lg={2}>
+        <Card>
           <Card.Img variant="top" src="./images/headshot.jpg" />
           <Card.Body>
             <Card.Title>Marian Anderson</Card.Title>
@@ -18,7 +18,8 @@ export default class About extends Component {
             <Button href="https://www.vagaro.com/hairbymarian">Book Me!</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "50%" }}>
+        <div className="p-4"></div>
+        <Card >
           <Card.Img variant="top" src="./images/ID.PNG" />
           <Card.Body>
             <Card.Title>Tanner Percival - Developer</Card.Title>
