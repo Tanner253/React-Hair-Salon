@@ -15,18 +15,17 @@ body{
 }
 .carousel-caption > h3 {
   font-size:3.5vw;
-  background: -webkit-linear-gradient(#1eb427);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 1px -1px white;
-}
-.carousel-caption > p{
+  color:white;
   font-size:2vw;
   font-weight: bolder;
-  background: -webkit-linear-gradient(#1eb427);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 1px -1px black;
+  text-shadow: -2px 2px black;
+
+}
+.carousel-caption > p{
+  color:black;
+  font-size:2vw;
+  font-weight: bolder;
+  text-shadow: 1px -1px white;
 }
 span.navbar-brand{
   font-weight: bolder;
