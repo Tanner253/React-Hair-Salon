@@ -9,7 +9,7 @@ class Splash extends React.Component {
           <div className="container">
             <h1 className="display-4">Tacoma's Best Blonding Services</h1>
             <p className="lead">
-            I am curently working in the proctor district located in the north end of Tacoma. I use the industries top brands such as KEVIN MURPHY bring out your hairs best potential so you can look and feel your best!
+            I am curently working in the proctor district located in the north end of Tacoma. I use the industries top brands like KEVIN MURPHY to bring out your hairs best potential so you can look and feel your best!
             </p>
           </div>
         </div>
@@ -21,7 +21,8 @@ class Splash extends React.Component {
               alt="Marian Anderson"
             />
             <Carousel.Caption>
-              <h3>Professional Stylist</h3>
+              <h3>Marian</h3>
+              <p>Professional Hair Stylist</p>
               <p>Passionate about making you look and feel your best.</p>
             </Carousel.Caption>
           </Carousel.Item>

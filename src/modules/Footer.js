@@ -8,7 +8,7 @@ export default class Footer extends Component {
       <Container className="text-center mt-5">
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
-            <h1 className="display-6">Marians Hair</h1>
+            <h1 className="display-6">Marian's Hair</h1>
             <Container>
               <SocialIcon url="https://www.instagram.com/marianyaaaaa" />
             </Container>
