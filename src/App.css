@@ -22,18 +22,16 @@ body{
   text-shadow: 1px 2px black;
 }
 span.navbar-brand{
-  font-size: 20px;
-  background: -webkit-linear-gradient(#00ffc8, #e41bb1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px white;
+  font-weight: bolder;
+  font-size: 18px;
 }
 a.nav-link{
-  font-size: 20px;
-  background: -webkit-linear-gradient(#00ffc8, #e41bb1);
+  font-weight: bolder;
+  font-size: 22px;
+  background: -webkit-linear-gradient(#e41bb1,#e41bb1,#00ffc8, #e41bb1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 2px white;
+  text-shadow: 2px 0px white;
 
 }
 
