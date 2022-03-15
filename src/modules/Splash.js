@@ -50,6 +50,29 @@ class Splash extends React.Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <Carousel className="w-100 mt-5">
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-responsive center-block"
+              src="./images/1x1b3.jpg"
+              alt="Marian Anderson Work"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-responsive center-block"
+              src="./images/1x1b1.jpg"
+              alt="Marian Anderson Work"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-responsive center-block"
+              src="./images/1x1b2.jpg"
+              alt="Marian Anderson Work"
+            />
+          </Carousel.Item>
+        </Carousel>
       </>
     );
   }
