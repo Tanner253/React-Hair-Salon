@@ -5,7 +5,7 @@ class Services extends React.Component {
   render() {
     return (
       <>
-        <Card className="text-center mb-5">
+        <Card className="text-center mt-5 mb-5">
           <Card.Header>Featured Service: Blonding</Card.Header>
           <Card.Body>
             <Card.Title>Blonding your hair to desired tone</Card.Title>
