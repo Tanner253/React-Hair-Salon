@@ -12,7 +12,7 @@ class Services extends React.Component {
             <Card.Text>
               Ensures excellent color and hair quality
             </Card.Text>
-            <Button href="https://www.vagaro.com/hairbymarian" variant="primary">Book Appointment!</Button>
+            <Button className="btn-success" href="https://www.vagaro.com/hairbymarian" variant="primary">Book Appointment!</Button>
           </Card.Body>
           <Card.Footer className="text-muted">$80.00</Card.Footer>
         </Card>
@@ -23,7 +23,7 @@ class Services extends React.Component {
             <Card.Text>
               Prefered style to be completed 
             </Card.Text>
-            <Button href="https://www.vagaro.com/hairbymarian" variant="primary">Book Appointment!</Button>
+            <Button className="btn-success"  href="https://www.vagaro.com/hairbymarian" variant="primary">Book Appointment!</Button>
           </Card.Body>
           <Card.Footer className="text-muted">$40.50</Card.Footer>
         </Card>
@@ -34,7 +34,7 @@ class Services extends React.Component {
             <Card.Text>
               Prefered style to be completed 
             </Card.Text>
-            <Button href="https://www.vagaro.com/hairbymarian" variant="primary">Book Appointment!</Button>
+            <Button className="btn-success"  href="https://www.vagaro.com/hairbymarian" variant="primary">Book Appointment!</Button>
           </Card.Body>
           <Card.Footer className="text-muted">$35.50</Card.Footer>
         </Card>
