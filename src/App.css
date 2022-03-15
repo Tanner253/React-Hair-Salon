@@ -6,7 +6,12 @@ body{
   background-image: linear-gradient(to right, #00ffc8, #e41bb1, #00ffc8);
   backdrop-filter: blur(5px);
 }
-
+.carousel-caption > h3 {
+  font-size:2em;
+  background: -webkit-linear-gradient(#e41bb1, #e41bb1, #00ffc8, #e41bb1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 span.navbar-brand{
   font-size: 20px;
   background: -webkit-linear-gradient(#00ffc8, #e41bb1);
