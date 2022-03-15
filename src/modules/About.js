@@ -15,7 +15,7 @@ export default class About extends Component {
             <Card.Text>
               List work and pitch here
             </Card.Text>
-            <Button href="https://www.vagaro.com/hairbymarian">Book Me!</Button>
+            <Button className="btn-success" href="https://www.vagaro.com/hairbymarian">Book Me!</Button>
           </Card.Body>
         </Card>
         </Col>
@@ -27,9 +27,9 @@ export default class About extends Component {
             <Card.Text>
               Full Stack Software Developer in ASP.NET Core / Node.js
             </Card.Text>
-            <Button  className="mr-4" href="https://github.com/Tanner253">Github</Button>
-            <Button className="mr-4" href="https://www.linkedin.com/in/tannerperc/">LinkedIn</Button>
-            <Button  href="mailto:percivaltanner@gmail.com">Email</Button>
+            <Button  className="mr-4 btn-success" href="https://github.com/Tanner253">Github</Button>
+            <Button className="mr-4 btn-success" href="https://www.linkedin.com/in/tannerperc/">LinkedIn</Button>
+            <Button  className="btn-success" href="mailto:percivaltanner@gmail.com">Email</Button>
           </Card.Body>
         </Card>
         </Col>

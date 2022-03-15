@@ -3,7 +3,7 @@
 }
 body{
   
-  background-image: linear-gradient(to left top, #085013, #1eb427, #085013, #1eb427,#085013);
+  background-image: linear-gradient(to right top, #085013, #1eb427, #085013, #1eb427,#085013);
   backdrop-filter: blur(5px);
 }
 
@@ -15,18 +15,18 @@ body{
 }
 .carousel-caption > h3 {
   font-size:3.5vw;
-  background: -webkit-linear-gradient(#e41bb1, #e41bb1, #00ffc8, #e41bb1);
+  background: -webkit-linear-gradient(#085013,#085013,#1eb427,#085013);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 1px 2px white;
+  text-shadow: 2px -3px white;
 }
 .carousel-caption > p{
   font-size:2vw;
   font-weight: bolder;
-  background: -webkit-linear-gradient(#e41bb1, #e41bb1, #00ffc8, #e41bb1);
+  background: -webkit-linear-gradient(#085013,#085013,#1eb427,#085013);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 1px 2px black;
+  text-shadow: 2px -3px black;
 }
 span.navbar-brand{
   font-weight: bolder;
@@ -35,10 +35,10 @@ span.navbar-brand{
 a.nav-link{
   font-weight: bolder;
   font-size: 22px;
-  background: -webkit-linear-gradient(#e41bb1,#e41bb1,#00ffc8, #e41bb1);
+  background: -webkit-linear-gradient(#085013,#085013,#1eb427,#085013);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px 0px white;
+  text-shadow: 2px -2px white;
 
 }
 
