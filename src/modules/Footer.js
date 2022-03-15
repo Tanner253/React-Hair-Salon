@@ -13,7 +13,7 @@ export default class Footer extends Component {
               <SocialIcon url="https://www.instagram.com/marianyaaaaa" />
             </Container>
             <p className="lead">
-            Copyright &copy; Marian Anderson - All right reserved
+            Copyright &copy; Marian Anderson - All rights reserved
             </p>
           </div>
         </div>
