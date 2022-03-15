@@ -17,7 +17,7 @@ class Splash extends React.Component {
           <Carousel.Item>
             <img
               className="d-block w-100 img-responsive center-block"
-              src="./images/MainPFP.jpg"
+              src="./images/headshot.jpg"
               alt="Marian Anderson"
             />
             <Carousel.Caption>
