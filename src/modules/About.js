@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Card, Button, Container, Col, Row } from "react-bootstrap";
-import { SocialIcon } from "react-social-icons";
 
 export default class About extends Component {
   render() {
