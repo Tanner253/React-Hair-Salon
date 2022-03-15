@@ -19,7 +19,7 @@ export default class Header extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/" style={{color: "linear-gradient(to right, #00ffc8, #e41bb1, #00ffc8);" }}>Home</Nav.Link>
               <NavDropdown
                 title="More Information"
                 id="collasible-nav-dropdown"
