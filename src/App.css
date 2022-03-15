@@ -6,6 +6,13 @@ body{
   background-image: linear-gradient(to left top, #e41bb1, #00ffc8,#e41bb1,#00ffc8,#e41bb1);
   backdrop-filter: blur(5px);
 }
+
+
+
+.carousel{
+  border-radius: 25px;
+  border:white solid 10px;
+}
 .carousel-caption > h3 {
   font-size:3.5vw;
   background: -webkit-linear-gradient(#e41bb1, #e41bb1, #00ffc8, #e41bb1);
