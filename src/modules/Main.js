@@ -1,14 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import Header from "./Header.js";
 import About from "./About.js";
 import Splash from "./Splash.js";
 import Services from "./Services.js";
 import Contact from "./Contact.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Container } from "react-bootstrap";
+import { Container } from '@mui/material';
 
-class Main extends Component {
-  render() {
+export default function Main() {
     return (
       <Container className="text-center">
         <Router>
@@ -22,7 +21,6 @@ class Main extends Component {
         </Router>
       </Container>
     );
-  }
 }
 
-export default Main;
+

@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 
-export default class Footer extends Component {
-  render() {
+export default function Footer() {
     return (
       <div >
         <Container className="text-center mt-5" >
@@ -23,5 +22,4 @@ export default class Footer extends Component {
         </Container>
       </div>
     );
-  }
 }

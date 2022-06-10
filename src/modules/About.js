@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Card, Button, Container, Col, Row } from "react-bootstrap";
 
-export default class About extends Component {
-  render() {
+export default function About(){
     return (
       <>
       <Container className="text-center mt-4">
@@ -37,5 +36,4 @@ export default class About extends Component {
       </Container>
       </>
     );
-  }
 }

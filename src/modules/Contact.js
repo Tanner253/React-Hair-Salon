@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from "react-bootstrap/Button"
-class Contact extends React.Component {
-  render() {
+
+export default function Contact() {
     return (
       <div className="jumbotron jumbotron-fluid mt-4" style={{height: 500}}>
       <div className="container">
@@ -14,6 +14,4 @@ class Contact extends React.Component {
       </div>
     </div>
     )
-  }
 }
-export default Contact;
