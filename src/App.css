@@ -7,30 +7,11 @@ body{
   backdrop-filter: blur(5px);
 }
 
-
-
-.carousel{
-  border-radius: 25px;
-  border:white solid 10px;
-}
-.carousel-caption > h3 {
-  font-size:3.5vw;
-  color:white;
-  font-size:2vw;
-  font-weight: bolder;
-  text-shadow: -2px 2px black;
-
-}
-.carousel-caption > p{
-  color:black;
-  font-size:2vw;
-  font-weight: bolder;
-  text-shadow: 1px -1px white;
-}
 span.navbar-brand{
   font-weight: bolder;
   font-size: 18px;
 }
+
 a.nav-link{
   font-weight: bolder;
   font-size: 22px;
@@ -65,6 +46,13 @@ a.nav-link{
 
 .App-link {
   color: #61dafb;
+}
+
+.footer{
+  background-color: white;
+  width: min(92ch, 100% - 2rem);
+  margin-right: auto;  
+  margin-left: auto;
 }
 
 @keyframes App-logo-spin {

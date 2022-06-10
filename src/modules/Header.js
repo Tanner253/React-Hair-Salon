@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
-export default class Header extends Component {
-  render() {
+export default function Header() {
     return (
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container className="text-center">
@@ -19,7 +18,7 @@ export default class Header extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/" style={{color: "linear-gradient(to right, #00ffc8, #e41bb1, #00ffc8);" }}>Home</Nav.Link>
+              <Nav.Link href="/" style={{color: "linear-gradient(to right, #00ffc8, #e41bb1, #00ffc8)" }}>Home</Nav.Link>
               <NavDropdown
                 title="More Information"
                 id="collasible-nav-dropdown"
@@ -40,5 +39,4 @@ export default class Header extends Component {
         </Container>
       </Navbar>
     );
-  }
 }

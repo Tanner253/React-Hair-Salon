@@ -1,8 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-class Services extends React.Component {
-  render() {
+export default function Services() {
     return (
       <>
         <Card className="text-center mt-5 mb-5">
@@ -40,7 +39,6 @@ class Services extends React.Component {
         </Card>
       </>
     );
-  }
 }
 
-export default Services;
+

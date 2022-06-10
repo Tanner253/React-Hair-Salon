@@ -1,14 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 
-export default class Footer extends Component {
-  render() {
+export default function Footer() {
     return (
       <div >
-        <Container className="text-center mt-5" >
-          <div className="jumbotron jumbotron-fluid" >
-            <div className="container">
+        {/* <Container className="text-center mt-3" > */}
+          <div className="footer"  >
+            <div >
               <h1 className="display-6">
                 Marian @HairPoetic on Proctor, Tacoma Wa
               </h1>
@@ -20,8 +19,7 @@ export default class Footer extends Component {
               </p>
             </div>
           </div>
-        </Container>
+        {/* </Container> */}
       </div>
     );
-  }
 }
