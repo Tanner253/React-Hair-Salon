@@ -6,7 +6,7 @@ import SplashImages from "../SplashImages";
 export default function Splash() {
   return (
     <>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid" style={{height: 300}}>
         <div className="container">
           <h1 className="display-4">Tacoma's Best Blonding Services</h1>
           <p className="lead">
@@ -14,28 +14,13 @@ export default function Splash() {
           </p>
         </div>
       </div>
-      {/* <Carousel className="w-100">
-          <Carousel.Item>
-            <img
-              className="d-block w-100 img-responsive center-block"
-              src="./images/MainPFP.jpg"
-              alt="Marian Anderson"
-            />
-            <Carousel.Caption>
-              <h3>Marian</h3>
-              <p>Professional Hair Stylist</p>
-              <p>Passionate about making you look and feel your best.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel> */}
-
-      <Card sx={{ maxWidth: 4000, bgcolor:'#212529' }}>
+      <Card sx={{ maxWidth: 3000, bgcolor:'#212529' }}>
         <CardMedia
           component="img"
           height="140"
           src="./images/MainPFP.jpg"
-          alt="green iguana"
-          sx={{height: 500}}
+          alt="Stylist Headshot"
+          sx={{height: 600}}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="white">
@@ -54,7 +39,6 @@ export default function Splash() {
       <ImageList className="w-100 mt-5" variant="quilted" children="ImageListItem" >
         <SplashImages />
       </ImageList>
-
     </>
   );
 }
